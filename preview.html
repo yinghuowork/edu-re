@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titleHead">Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
+</head>
+<body class="
+mdui-drawer-body-left
+mdui-appbar-with-toolbar
+mdui-theme-primary-indigo
+mdui-theme-accent-pink
+mdui-theme-layout-auto">
+     <!-- toolbar -->
+  <div class="mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-toolbar mdui-color-indigo">
+      <a href="/" class="mdui-typo-headline" style="color: white;" id="titleToolBar">萤火课程网站系统</a>
+      <div class="mdui-toolbar-spacer"></div>
+      <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+      <button class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
+    </div>
+  </div>
+  <!-- drawer -->
+  <div class="mdui-drawer" id="drawer">
+    <ul class="mdui-list">
+      <a href="/"><li class="mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons">folder</i>
+        <div class="mdui-list-item-content">主页</div>
+      </li></a>
+    </ul>
+  </div>
+  <center>
+  <div id="main"></div></center>
+  <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+  <script src="/assets/js/pre.js"></script>
+  <script src="/assets/js/config.js"></script>
+</body>
+</html>

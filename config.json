@@ -1,0 +1,7 @@
+{   
+    "warning":"！！！ Config请在启用生产环境下删除 替换进入HTML文件 此文件仅在开发环境下使用 ！！！",
+    "siteName":{
+        "headTitle":"萤火课程网站系统",
+        "toolBarTitle":"萤火课程网站系统"
+    }
+}
